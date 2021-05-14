@@ -1,5 +1,14 @@
 <h2>48. Rotate Image</h2><h3>Medium</h3><hr><div><p>You are given an <em>n</em> x <em>n</em> 2D <code>matrix</code> representing an image, rotate the image by 90 degrees (clockwise).</p>
 
+### clockwise rotate
+first reverse up to down, then swap the symmetry<br>
+시계방향: 행 배열을 뒤집고 대각선 대칭을 스왑
+<br>
+
+### anticlockwise rotate
+first reverse left to right, then swap the symmetry<br>
+반시계방향: 열 기준 배열 뒤집고 대각선 대칭 스왑
+<br><br><br>
 <p>You have to rotate the image <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a>, which means you have to modify the input 2D matrix directly. <strong>DO NOT</strong> allocate another 2D matrix and do the rotation.</p>
 
 <p>&nbsp;</p>
