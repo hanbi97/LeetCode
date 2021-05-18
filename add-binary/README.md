@@ -1,5 +1,12 @@
 <h2>67. Add Binary</h2><h3>Easy</h3><hr><div><p>Given two binary strings <code>a</code> and <code>b</code>, return <em>their sum as a binary string</em>.</p>
 
+#### 자바문법
++ String은 for-each 안됨
++ reverse는 StringBuffer, toString() 필요
++ Stack은 new Stack<>(); <> 다음 ()
++ StringBuffer은 append()
+
+
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 <pre><strong>Input:</strong> a = "11", b = "1"
