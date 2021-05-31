@@ -18,3 +18,13 @@ class Solution {
         return arr[length-1];
     }
 }
+
+class Solution {
+    public boolean canJump(int[] nums) {
+        int idx=0; int n = nums.length;
+        for(int reach=0; idx<n && idx<=reach; idx++){
+            reach = Math.max(idx+nums[idx], reach);
+        }
+        return idx==n;
+    }
+}
